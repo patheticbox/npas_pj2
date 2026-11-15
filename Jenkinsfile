@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/ВАШ_ЛОГІН/ВАШ_РЕПО.git'
+                git branch: 'main', url: 'https://github.com/patheticbox/npas_pj2.git'
             }
         }
 
